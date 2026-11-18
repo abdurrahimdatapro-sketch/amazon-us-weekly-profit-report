@@ -3,9 +3,19 @@
 ## Project Overview
 An Excel reporting template designed to help an Amazon US seller review weekly sales, advertising performance, ACoS, and estimated profit by SKU.
 
-The workbook separates product cost assumptions from weekly sales inputs so the report can be updated regularly without rebuilding formulas.
+This is a self-initiated portfolio demonstration built with illustrative dummy data. It is not an official Amazon report and does not imply access to a real Amazon Seller Central account.
 
-> **Portfolio note:** This is a self-initiated demonstration project built with illustrative dummy data. It is not an official Amazon report and does not imply access to a real Seller Central account.
+## Dashboard Preview
+
+![Amazon weekly profit dashboard](screenshots/dashboard.png)
+
+## Workbook Screenshots
+
+### Weekly Summary
+![Weekly summary](screenshots/weekly-summary.png)
+
+### Product Setup
+![Product setup](screenshots/product-setup.png)
 
 ## Business Objective
 - Monitor total sales and advertising spend.
@@ -32,14 +42,8 @@ The workbook separates product cost assumptions from weekly sales inputs so the 
 
 Ad-attributed sales are a subset of total sales and are not added to total sales again.
 
-## How to Use
-1. Add each product's SKU, name, and per-unit costs in `Product Setup`.
-2. Enter weekly figures in `Weekly Input`, using the Monday date for each reporting week.
-3. Select the reporting week on the `Dashboard`.
-4. Review the selected-week KPIs, SKU-level results, and 52-week summary.
-
 ## Sample Data Used for Testing
-The demo workbook contains illustrative sample data for two products:
+The demonstration workbook contains illustrative sample data for two products:
 
 | Product | Units Sold | Total Sales | Ad Spend | Ad Sales |
 |---|---:|---:|---:|---:|
@@ -76,9 +80,10 @@ Tested with sample data for:
 - Refunds, storage fees, promotions, taxes, and other adjustments are not included unless incorporated into the cost assumptions.
 - Input ranges can be extended for larger datasets.
 
-## Files
+## Project Files
 - `Amazon_US_Weekly_Profit_Report_Template.xlsx` — clean workbook ready for new data.
 - `Amazon_US_Weekly_Profit_Report_Demo_with_Dummy_Data.xlsx` — tested demo workbook with illustrative data.
+- `DATA_DICTIONARY.md` — explanation of weekly input fields.
 
 ---
 Created as a portfolio demonstration by **Abdur Rahim**.
